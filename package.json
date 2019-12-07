@@ -35,6 +35,6 @@
     "sapper": "^0.27.0",
     "svelte": "^3.0.0",
     "svelte-preprocess": "^3.2.6",
-    "ygdir": "^1.7.0"
+    "ygdir": "^1.10.4"
   }
 }
