@@ -3,9 +3,22 @@
 </svelte:head>
 
 <div class="c-container">
+
     <div class="c-content">
-        <h1>My app</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <h1>Ygdir demo</h1>
+        <p>Ygdir is a new CSS framework.</p>
+        <p>This page serves as a demo of Ygdir's components.</p>
     </div>
-    <a href="/" class="c-button c-button--default">Hello world</a>
+
+    <h3 class="c-h3">Buttons</h3>
+    <p>
+        <a href="/" class="c-button c-button--default">Default button</a>
+        <a href="/" class="c-button c-button--primary">Primary button</a>
+    </p>
+
+    <h3 class="c-h3">Block list</h3>
+    <p>
+        ...
+    </p>
+
 </div>
