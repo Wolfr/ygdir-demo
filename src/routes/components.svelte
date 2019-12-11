@@ -12,7 +12,7 @@
 
 <div class="c-container c-container--small c-content">
 
-    <h2>Rationale</h2>
+    <h2>Components</h2>
 
     <h3 class="c-h3">Buttons</h3>
 
@@ -38,6 +38,18 @@
     </pre>
 
     <h3 class="c-h3">Block list</h3>
+
+    <p>
+        ...
+    </p>
+
+    <h3 class="c-h3">Toolbar</h3>
+
+    <p>
+        ...
+    </p>
+
+    <h3 class="c-h3">Modal</h3>
 
     <p>
         ...

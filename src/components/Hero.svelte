@@ -6,6 +6,7 @@
         font-weight: 600;
         color: #000;
         max-width: 80%;
+        line-height: 110%;
     }
 </style>
 
