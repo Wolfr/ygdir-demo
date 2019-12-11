@@ -1,42 +1,45 @@
+<script>
+    import Hero from '../components/Hero.svelte';
+    import InstallInstructions from '../components/InstallInstructions.svelte';
+</script>
+
 <svelte:head>
     <title>Ygdir - Documentation</title>
 </svelte:head>
 
 <div class="c-container">
 
-    <div class="c-content">
-        <h1>Ygdir - Documentation</h1>
-        <p>Ygdir is a new BEM/ITCSS based framework.</p>
-        <p>This page serves as a demo of Ygdir's components.</p>
-    </div>
+    <main class="c-content">
 
-    <h3 class="c-h3">Buttons</h3>
+        <Hero />
 
-    <p>
-        <a href="/" class="c-button c-button--default">Default button</a>
-        <a href="/" class="c-button c-button--primary">Primary button</a>
-    </p>
+        <InstallInstructions />
 
-    <pre>
-        <code>
-            &lt;a href=&quot;/&quot; class=&quot;c-button c-button--default&quot;&gt;Default button&lt;/a&gt;
-            &lt;a href=&quot;/&quot; class=&quot;c-button c-button--primary&quot;&gt;Primary button&lt;/a&gt;
-        </code>
-    </pre>
+    </main>
 
-    <h3 class="c-h3">Container</h3>
+    <article>
 
-    <pre>
-        <code>
-            &lt;div class=&quot;c-container&quot;&gt;
-            &lt;/div&gt;
-        </code>
-    </pre>
+        <h3>Based on proven CSS methodologies</h3>
 
-    <h3 class="c-h3">Block list</h3>
+        <p>Through a combination of BEM and ITCSS, with clear rules regarding namespacing, we provide a scalable base to build from.</p>
 
-    <p>
-        ...
-    </p>
+        <h3>Start from scratch (or don’t)</h3>
+
+        <p>Base Ygdir is just a reset and a series of conventions. You can choose to plug in pre-built components, but unlike other frameworks, we don’t ship 300kb worth of default CSS. If your project only has a form and a few buttons, only include the needed components.</p>
+
+        <h3>Javascript framework independent</h3>
+
+        <p>Use whichever Javascript framework you want. Ygdir is independent from Javascript frameworks. The reality of web development is that different things are written with different frameworks. Why would you tie your CSS to a single framework?</p>
+
+        <h3>Convention-first</h3>
+
+        <p>In Ygdir, components follow a strict convention. This leads to predictable code that can be maintained over time. For example, it is easy to tell whether a component is dead code.</p>
+
+        <h3>Not utility-first</h3>
+
+        <p>Utility-first CSS leads to horrible many-to-many problems. It looks like a good idea at first, until you have to maintain it. Utility-first frameworks promote messy code.</p>
+        <p>We don’t have a problem with prototyping and quickly trying things, but using too many utilities leads to maintenance problems.</p>
+
+    </article>
 
 </div>

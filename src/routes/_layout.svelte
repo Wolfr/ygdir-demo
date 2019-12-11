@@ -1,15 +1,11 @@
 <script>
-	import Nav from '../components/Nav.svelte';
-
-	export let segment;
+    import Header from '../components/Header.svelte';
 </script>
 
 <style lang="scss" global>
      @import "./style/app.scss";
 </style>
 
-<Nav {segment}/>
+<Header />
 
-<main>
-	<slot></slot>
-</main>
+<slot></slot>
