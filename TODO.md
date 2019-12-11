@@ -5,3 +5,4 @@
 * Implement widget to star on github
 * Implement side panel layout for component documentation
 * Implement favicon + favicon for dark mode
+* Improve responsiveness of website
