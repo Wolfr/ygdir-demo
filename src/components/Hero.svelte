@@ -1,8 +1,11 @@
 <style>
     p {
-        font-size: 2.4rem;
+        font-size: 3.2rem;
         text-align: center;
-        margin: 4.8rem 0;
+        margin: 4.8rem auto;
+        font-weight: 600;
+        color: #000;
+        max-width: 80%;
     }
 </style>
 

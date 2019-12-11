@@ -1,6 +1,6 @@
 {
   "name": "ygdir-demo",
-  "description": "Demo of CSS framework Ygdir",
+  "description": "Documentation site for Ygdir CSS framework",
   "version": "1.0.0",
   "scripts": {
     "dev": "sapper dev",
@@ -35,6 +35,6 @@
     "sapper": "^0.27.0",
     "svelte": "^3.0.0",
     "svelte-preprocess": "^3.2.6",
-    "ygdir": "^1.10.4"
+    "ygdir": "^1.13.0"
   }
 }

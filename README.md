@@ -1,3 +1,3 @@
-# Ygdir demo
+# Ygdir
 
-A demo of Ygdir.
+Documentation website for Ygdir.
