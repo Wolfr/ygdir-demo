@@ -1,3 +1,8 @@
+<script>
+    import Typewriter from 'svelte-typewriter'
+</script>
+
+
 <style>
     p {
         font-size: 3.2rem;
@@ -8,6 +13,13 @@
         max-width: 80%;
         line-height: 110%;
     }
+    @media (min-width: 80rem) {
+        p {
+            min-height: 7rem;
+        }
+    }
 </style>
 
+<Typewriter cascade>
 <p>Ygdir is a new CSS framework that aims to make CSS less painful.</p>
+</Typewriter>

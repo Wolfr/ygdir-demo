@@ -25,22 +25,18 @@ trim_trailing_whitespace = false
 indent_style = space
 indent_size = 4
 
-# Tab indentation (no size specified)
 [*.js]
 indent_style = space
 indent_size = 2
 
-# Tab indentation (no size specified)
 [*.coffeescript]
 indent_style = space
 indent_size = 4
 
-# Tab indentation (no size specified)
 [*.scss]
 indent_style = space
 indent_size = 2
 
-# Tab indentation (no size specified)
 [*.json]
 indent_style = space
 indent_size = 2

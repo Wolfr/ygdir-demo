@@ -1,0 +1,20 @@
+.c-nav-list li {
+  margin: 0 0 0.4rem;
+}
+
+.c-nav-list a {
+  color: #000;
+  display: block;
+  padding: 1.2rem 1.6rem;
+  border-radius: 0.3rem;
+  text-decoration: none;
+}
+
+.c-nav-list a:hover,
+.c-nav-list a:focus {
+  background: #EEE;
+}
+
+.c-nav-list a.selected {
+  background: #DDD;
+}

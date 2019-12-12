@@ -17,7 +17,7 @@
     }
 </style>
 
-<article>
+<article class="c-content">
     <section>
         <h3>Based on proven CSS methodologies</h3>
         <p>Through a combination of BEM and ITCSS, with clear rules regarding namespacing, we provide a scalable base to build from.</p>

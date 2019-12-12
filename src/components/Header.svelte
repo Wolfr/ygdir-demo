@@ -1,3 +1,6 @@
+<script>
+    export let segment;
+</script>
 <style>
 
     header {
@@ -5,7 +8,7 @@
         justify-content: space-between;
         align-items: center;
         border-bottom: 1px solid #DDD;
-        padding: 0 2.4rem;
+        padding: 2.4rem;
     }
 
     h1 a {
@@ -15,9 +18,21 @@
     }
 
     nav a {
-        margin: 0 1rem 0 0;
+        margin: 0 0.4rem 0 0;
         color: #000;
         text-decoration: none;
+        display: inline-block;
+        padding: 0.8rem 1.2rem;
+        border-radius: 0.3rem;
+    }
+
+    nav a:hover,
+    nav a:focus {
+        background: #EEE;
+    }
+
+    nav a.selected {
+        background: #DDD;
     }
 
     nav img {
@@ -29,12 +44,14 @@
 
 <header>
     <h1>
-        <a href="/"><img src="/shape.svg" alt="">Ygdir</a>
+        <a href="/">
+            <img src="/shape.svg" alt="">Ygdir
+        </a>
     </h1>
     <nav>
-        <a href="/">Home</a>
-        <a href="/rationale">Rationale</a>
-        <a href="/components">Components</a>
+        <a href="/" class:selected={!segment}>Home</a>
+        <a href="/rationale" class:selected={segment === "rationale"}>Rationale</a>
+        <a href="/components" class:selected={segment === "components"}>Components</a>
         <a href="https://github.com/mono-company/ygdir">
             <img src="/github-black.svg" alt="">
             Github

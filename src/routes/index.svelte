@@ -10,12 +10,9 @@
 
 <div class="c-container">
 
-    <main class="c-content">
-
+    <main>
         <Hero />
-
         <InstallInstructions />
-
     </main>
 
     <Usps />
