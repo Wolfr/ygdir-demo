@@ -7,12 +7,6 @@
 </script>
 
 <style>
-    .c-container--small {
-        padding: 3.2rem;
-        max-width: 66rem;
-        margin: 0 auto;
-    }
-
     @media (min-width: 800px) {
         .c-layout-components {
             display: flex;

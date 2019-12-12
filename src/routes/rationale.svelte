@@ -4,9 +4,12 @@
 
 <style>
 
+    header {
+        margin: 4.8rem 0;
+    }
+
     header p {
         color: #999;
-        margin: 4.8rem 0;
     }
 
 </style>

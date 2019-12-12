@@ -36,6 +36,6 @@
     "svelte": "^3.0.0",
     "svelte-preprocess": "^3.2.6",
     "svelte-typewriter": "^1.5.3",
-    "ygdir": "^1.15.0"
+    "ygdir": "^1.16.0"
   }
 }
