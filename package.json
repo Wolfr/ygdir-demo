@@ -1,7 +1,7 @@
 {
-  "name": "ygdir-demo",
+  "name": "ygdir-documentation",
   "description": "Documentation site for Ygdir CSS framework",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "scripts": {
     "dev": "sapper dev",
     "build": "sapper build --legacy",
