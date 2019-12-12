@@ -4,7 +4,7 @@
 
 <style>
 
-    header {
+    header p {
         color: #999;
         margin: 4.8rem 0;
     }
