@@ -24,7 +24,7 @@
     </section>
     <section>
         <h3>Start from scratch (or don’t)</h3>
-        <p>Base Ygdir is just a reset and a series of conventions. You can choose to plug in pre-built components, but unlike other frameworks, we don’t ship 300kb worth of default CSS. If your project only has a form and a few buttons, only include the needed components.</p>
+        <p>Base Ygdir is simply a CSS reset and a series of conventions. You can choose to plug in pre-built components, but unlike other frameworks, we don’t ship 300kb worth of default CSS. If your project only has a form and a few buttons, only include the needed components.</p>
     </section>
     <section>
         <h3>Javascript framework independent</h3>
@@ -32,7 +32,7 @@
     </section>
     <section>
         <h3>Convention-first</h3>
-        <p>In Ygdir, components follow a strict convention. This leads to predictable code that can be maintained over time. For example, it is easy to tell whether a component is dead code.</p>
+        <p>In Ygdir, components follow a strict convention. This leads to predictable code that can be maintained over time. By making it easy to search for unique selectors and their usage, it is easy to tell whether a component is dead code.</p>
     </section>
     <section>
         <h3>Not utility-first</h3>
