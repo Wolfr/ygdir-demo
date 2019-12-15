@@ -1,7 +1,6 @@
 <script>
-    import Typewriter from 'svelte-typewriter'
+    import typewriter from 'svelte-typewriter/typewriter'
 </script>
-
 
 <style>
     p {
@@ -20,6 +19,4 @@
     }
 </style>
 
-<Typewriter cascade>
-<p>Ygdir is a new CSS framework that aims to make CSS less painful.</p>
-</Typewriter>
+<p use:typewriter>Ygdir is a new CSS framework that aims to make CSS less painful.</p>
