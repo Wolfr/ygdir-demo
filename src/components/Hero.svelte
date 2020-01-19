@@ -3,7 +3,7 @@
 </script>
 
 <style>
-    p {
+    h1 {
         font-size: 3.2rem;
         text-align: center;
         margin: 4.8rem auto;
@@ -19,4 +19,5 @@
     }
 </style>
 
-<p use:typewriter>Ygdir is a new CSS framework that aims to make CSS less painful.</p>
+<h1>Jungle</h1>
+<p>A set of HTML and CSS components that can be used independently of each other, following the Ygdir convention, themed with a set of great defaults.</p>

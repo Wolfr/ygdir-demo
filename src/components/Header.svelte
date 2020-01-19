@@ -44,13 +44,10 @@
 
 <header>
     <h1>
-        <a href="/">
-            <img src="/shape.svg" alt="">Ygdir
-        </a>
+        <a href="/">Jungle</a>
     </h1>
     <nav>
         <a href="/" class:selected={!segment}>Home</a>
-        <a href="/rationale" class:selected={segment === "rationale"}>Rationale</a>
         <a href="/components" class:selected={segment === "components"}>Components</a>
         <a href="https://github.com/mono-company/ygdir">
             <img src="/github-black.svg" alt="">
